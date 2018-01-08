@@ -13,3 +13,26 @@
   color: #999;
   font-size: 1rem;
 }
+
+.register-wrapper * {
+  box-sizing: border-box;
+}
+
+.register-wrapper form input {
+  display: inline-block;
+  width: 100%;
+  padding: 0 20px;
+  line-height: 50px;
+  height: 50px;
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-bottom-width: 3px;
+  border-radius: 5px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  outline: none;
+}
+
+.register-wrapper form input:not(:last-child) {
+  margin-bottom: 20px;
+}
