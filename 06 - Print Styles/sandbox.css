@@ -71,4 +71,19 @@
     color: #000;
   }
 
+  a:link {
+    margin: 0;
+  }
+
+  a::after {
+    content: " [" attr(href) "]";
+  }
+
+  footer a:link,
+  footer a:visited {
+    color: #000;
+    background: none;
+    padding: 0;
+  }
+
 }
