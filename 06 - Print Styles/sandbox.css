@@ -3,3 +3,21 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+@media print {
+
+  /* Hide unwanted elements */
+  body::before,
+  .course-files,
+  #logo,
+  .final-result::before,
+  .final-result::after,
+  .info::before,
+  .info::after,
+  .final-result h2,
+  .info h2,
+  img {
+    display: none;
+  }
+
+}
