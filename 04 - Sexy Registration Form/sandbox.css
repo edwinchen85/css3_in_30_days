@@ -36,3 +36,40 @@
 .register-wrapper form input:not(:last-child) {
   margin-bottom: 20px;
 }
+
+.register-wrapper form input[type="email"]:focus,
+.register-wrapper form input[type="email"]:active,
+.register-wrapper form input[type="password"]:focus,
+.register-wrapper form input[type="password"]:active {
+  border-color: #ccc;
+}
+
+.register-wrapper form input[type="submit"] {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0 20px;
+  background-color: #f2395a;
+  background-size: 20px 20px;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255,255,255,.15) 25%,
+    rgba(0,0,0,0) 25%,
+    rgba(0,0,0,0) 50%,
+    rgba(255,255,255,.15) 50%,
+    rgba(255,255,255,.15) 75%,
+    rgba(0,0,0,0) 75%,
+    rgba(0,0,0,0)
+  );
+  border: 1px solid #f02146;
+  border-bottom-width: 3px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.register-wrapper form input[type="submit"]:hover {
+  background-size: 40px 40px;
+}
