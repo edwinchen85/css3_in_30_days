@@ -11,3 +11,10 @@
   width: 16em;
   height: 16em;
 }
+
+.mario {
+  display: block;
+  width: 1em;
+  height: 1em;
+  background-color: #e7eef1;
+}
