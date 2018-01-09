@@ -3,3 +3,11 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.mario-block {
+  display: inline-block;
+  position: relative;
+  margin: 80px auto;
+  width: 16em;
+  height: 16em;
+}
