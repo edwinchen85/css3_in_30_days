@@ -94,3 +94,22 @@
   content: "";
   clear: both;
 }
+
+
+/* Simple media queries for responsive layouts */
+@media screen and ( max-width: 768px ) {
+  .layout1 article,
+  .layout1 aside,
+  .layout2 header .logo,
+  .layout2 header nav,
+  .layout2 article,
+  .layout2 aside.sidenav,
+  .layout2 aside.sidebar,
+  .layout3 article,
+  .layout3 header .logo,
+  .layout3 header nav {
+    float: none;
+    width: 100%;
+    margin: 0 0 2%;
+  }
+}
