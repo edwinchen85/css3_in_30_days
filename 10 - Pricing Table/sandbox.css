@@ -94,3 +94,18 @@
 .pricing-body ul li:nth-child(2n+1) {
   background-color: #f8f8f8;
 }
+
+.pricing-footer {
+  padding: 40px 0 0;
+}
+
+.pricing-button,
+.pricing-button:link,
+.pricing-button:visited {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #333;
+  color: #fff;
+}
