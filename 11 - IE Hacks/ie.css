@@ -1,3 +1,15 @@
 /* ==================================================
-   ONLY IE WILL BE ABLE TO SEE THESE STYLES
+   ONLY IE 6-9 WILL BE ABLE TO SEE THESE STYLES
    ================================================== */
+
+* {
+  background: white !important;
+  color: #000 !important;
+  line-height: 1.5em !important;
+}
+
+.course-files { display: none; }
+
+.sandbox h2,
+.final-result h2,
+.info h2 { display: none; !important; }
