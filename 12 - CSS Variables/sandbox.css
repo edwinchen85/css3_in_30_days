@@ -3,3 +3,9 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.sandbox {
+  --primary-color: orangered;
+  --secondary-color: hotpink;
+  --base-measurement: 20px;
+}
