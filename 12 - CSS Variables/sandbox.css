@@ -24,3 +24,7 @@
   width:        calc( var(--base-measurement) * 10 );
   line-height:  calc( var(--base-measurement) * 10 );
 }
+
+.sandbox .box2 {
+  background: var(--secondary-color);
+}
