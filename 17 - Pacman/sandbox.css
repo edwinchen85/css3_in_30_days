@@ -101,3 +101,24 @@
   left: 30px;
   animation: peeperRight .7s linear infinite;
 }
+
+.skirt, .skirt::before, .skirt::after {
+  position: absolute;
+  height: 0;
+  width: 0;
+  border: 10px solid #333;
+  border-top-color: transparent;
+  bottom: -10px;
+}
+
+.skirt::before, .skirt::after {
+  content: "";
+}
+
+.skirt::before {
+  left: 10px;
+}
+
+.skirt::after {
+  left: 30px;
+}
