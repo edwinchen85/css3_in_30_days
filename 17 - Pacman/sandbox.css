@@ -24,3 +24,33 @@
   left: 5%;
   margin-top: -6px;
 }
+
+.pacman {
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  left: -20%;
+  animation: moveForward 5s linear infinite;
+  animation-delay: .8s;
+}
+
+.pacman::before, .pacman::after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  position: absolute;
+  border: 30px solid yellow;
+  margin-top: -30px;
+  border-radius: 50%;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  animation: mouthTop .7s ease infinite;
+}
+
+.pacman::after {
+  border-color: yellow;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  animation: mouthBottom .7s ease infinite;
+}
