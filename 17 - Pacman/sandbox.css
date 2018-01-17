@@ -122,3 +122,48 @@
 .skirt::after {
   left: 30px;
 }
+
+@keyframes moveForward {
+  0% {
+    left: -0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes mouthTop {
+  50% {
+    transform: rotate(44deg);
+  }
+}
+
+@keyframes mouthBottom {
+  50% {
+    transform: rotate(-44deg);
+  }
+}
+
+@keyframes blinky {
+  50% {
+    background: hotpink;
+  }
+}
+
+@keyframes peeperLeft {
+  0%, 100% {
+    left: 5px;
+  }
+  50% {
+    left: 10px;
+  }
+}
+
+@keyframes peeperRight {
+  0%, 100% {
+    left: 30px;
+  }
+  50% {
+    left: 35px;
+  }
+}
