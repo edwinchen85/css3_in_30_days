@@ -54,3 +54,32 @@
   border-top-color: transparent;
   animation: mouthBottom .7s ease infinite;
 }
+
+.ghost {
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  left: 20%;
+  margin-top: -35px;
+  background: red;
+  height: 70px;
+  width: 60px;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  animation: moveForward 5s linear infinite, blinky .4s linear infinite;
+}
+
+.ghost::before, .ghost::after {
+  content: "";
+  position: absolute;
+  background: white;
+  height: 25px;
+  width: 20px;
+  border-radius: 100%;
+  top: 15px;
+  left: 4px;
+}
+
+.ghost::after {
+  left: 28px;
+}
