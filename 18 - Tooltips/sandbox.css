@@ -39,3 +39,8 @@
 	border: 5px solid transparent;
 	content: "";
 }
+
+.tooltip:hover::before,
+.tooltip:hover::after {
+	display: inline-block;
+}
