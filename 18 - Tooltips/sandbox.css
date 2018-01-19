@@ -86,3 +86,17 @@
 	border-bottom-color: rgba(0,0,0,.8);
 	border-top-width: 0;
 }
+
+.tooltip.left::before {
+	top: 50%;
+	right: calc(100% + 5px);
+	transform: translateY(-50%);
+}
+
+.tooltip.left::after {
+	border-left-color: rgba(0,0,0,.8);
+	border-right-width: 0;
+	top: 50%;
+	right: 100%;
+	transform: translateY(-50%);
+}
