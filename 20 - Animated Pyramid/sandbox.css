@@ -3,3 +3,10 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.triangle {
+	position: relative;
+	height: 320px;
+	clip-path: polygon(50% 0, 20% 100%, 80% 100%);
+	overflow: hidden;
+}
