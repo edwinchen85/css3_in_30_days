@@ -33,3 +33,19 @@
 .mid {
 	z-index: 1;
 }
+
+.triangle:hover div {
+	color: white;
+}
+
+.triangle:hover .mid {
+	/* top: 110px; */
+	transform: translateY(110px);
+	background: green;
+}
+
+.triangle:hover .bottom {
+	/* top: 220px; */
+	transform: translateY(220px);
+	background: blue;
+}
