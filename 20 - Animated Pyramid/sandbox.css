@@ -25,3 +25,11 @@
 	color: red;
 	transition: all ease .6s;
 }
+
+.top {
+	z-index: 2;
+}
+
+.mid {
+	z-index: 1;
+}
