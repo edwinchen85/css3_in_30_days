@@ -40,3 +40,28 @@
 .layout2 .sidebar {
 	flex: 1 20%;
 }
+
+
+
+.layout3 header {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.layout3 header nav {
+	flex: 1;
+	margin-right: 2%;
+}
+
+.layout3 .articles {
+	display: flex;
+}
+
+.layout3 article {
+	flex: 1;
+
+}
+
+.layout3 .articles article:not(:last-child) {
+	margin-right: 2%;
+}
