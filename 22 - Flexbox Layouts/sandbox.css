@@ -13,3 +13,30 @@
 	flex: 1 58%;
 	margin-right: 2%;
 }
+
+
+
+.layout2 header {
+	display: flex;
+}
+
+.layout2 header nav {
+	flex: 1;
+	margin-left: 2%;
+}
+
+.layout2 main {
+	display: flex;
+	margin-bottom: 2%;
+}
+
+.layout2 article {
+	flex: 1 56%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.layout2 .sidenav,
+.layout2 .sidebar {
+	flex: 1 20%;
+}
