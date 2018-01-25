@@ -3,3 +3,31 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.accordion {
+	position: relative;
+	display: block;
+	background-color: white;
+	border: 1px solid #e0e0e0;
+}
+
+.accordion__item {
+	display: block;
+}
+
+.accordion .accordion__content {
+	display: block;
+	padding: 0;
+	height: 0;
+	overflow: hidden;
+	transition: height .5s ease, padding .3s linear;
+}
+
+.accordion .accordion__content p {
+	padding: 20px;
+	margin: 0;
+}
+
+.accordion .accordion__content:target {
+	height: 150px;
+}
