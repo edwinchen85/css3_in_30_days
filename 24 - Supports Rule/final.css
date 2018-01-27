@@ -6,3 +6,11 @@
    Author:  Brad Hussey
    Website: codecollege.ca
    ========================================== */
+
+@supports (border-radius: 100%) {
+
+  .circle {
+    border-radius: 100%;
+  }
+
+}
