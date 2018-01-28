@@ -34,3 +34,26 @@
   box-sizing: border-box;
   transition: transform .3s ease;
 }
+
+.slide:hover .slide-content {
+  transform: translate(0, 0);
+}
+
+
+/* DIRECTIONS */
+
+.slide-top .slide-content {
+  transform: translate(0, -100%);
+}
+
+.slide-right .slide-content {
+  transform: translate(100%, 0);
+}
+
+.slide-bottom .slide-content {
+  transform: translate(0, 100%);
+}
+
+.slide-left .slide-content {
+  transform: translate(-100%, 0);
+}
