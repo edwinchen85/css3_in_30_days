@@ -3,3 +3,9 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
