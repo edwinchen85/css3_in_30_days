@@ -37,3 +37,16 @@
 .dropdown:hover .dropdown__menu {
   display: block;
 }
+
+.dropdown__menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+}
+
+.dropdown__menu a:hover {
+  background: #f0f0f0;
+  color: #323b40;
+}
