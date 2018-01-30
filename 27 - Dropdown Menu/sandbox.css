@@ -9,3 +9,16 @@
   display: inline-block;
   z-index: 10;
 }
+
+.dropdown__hover {
+  display: inline-block;
+  padding: 10px;
+  background: #323b40;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.dropdown__hover:hover {
+  background: #222;
+}
