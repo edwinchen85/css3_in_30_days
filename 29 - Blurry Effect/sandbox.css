@@ -3,3 +3,15 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+.depth-gallery {
+  position: relative;
+  display: inline-block;
+}
+
+.depth-gallery img {
+  border: 7px solid white;
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
+  cursor: crosshair;
+  transition: filter .3s linear, transform .3s linear;
+}
