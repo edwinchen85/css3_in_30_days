@@ -15,3 +15,8 @@
   cursor: crosshair;
   transition: filter .3s linear, transform .3s linear;
 }
+
+.depth-gallery:hover img {
+  filter: blur(4px);
+  transform: scale(.9);
+}
